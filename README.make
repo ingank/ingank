@@ -20,5 +20,7 @@ for REPO in ${LIST}; do
   echo -e "\`$SUMMARY\`\n" >> $OUTFILE
 done
 
+rm ./$GETFILE
+
 echo -e "\n---\n" >> $OUTFILE
 echo "\`aktualisiert am $DATE\`" >> $OUTFILE
