@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# README.make
-# Auto-README-maker
+# README.sh
+# Auto-README.md-maker
 
 OUTFILE='./README.md'
-LISTFILE='./repos.lst'
+LISTFILE='./repos'
 GETFILE='./get.md'
 LIST=`cat ${LISTFILE}`
 DATE=`date`
 
-echo -e "# Meine kleine Repo-Sammlung\n" > $OUTFILE
+# echo -e "# Aktuelle Projekte\n" > $OUTFILE
 
 for REPO in ${LIST}; do
   wget --no-cache -O ${GETFILE} "https://raw.githubusercontent.com/ingank/${REPO}/master/README.md"
