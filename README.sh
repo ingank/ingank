@@ -9,9 +9,10 @@ GETFILE='./get.md'
 LIST=`cat ${LISTFILE}`
 DATE=`date`
 
-# echo -e "# Aktuelle Projekte\n" > $OUTFILE
+echo -e "# Aktuelle Projekte\n" > $OUTFILE
 
 for REPO in ${LIST}; do
+  #wget --no-cache -O ${GETFILE} "https://raw.githubusercontent.com/ingank/${REPO}/master/README.md"
   wget --no-cache -O ${GETFILE} "https://raw.githubusercontent.com/ingank/${REPO}/master/README.md"
   cat ${GETFILE}
   TRAILER=$(head -1 ${GETFILE} | sed 's/# //g')
