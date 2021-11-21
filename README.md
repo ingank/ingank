@@ -19,6 +19,5 @@
 `Portierung des Projektes MBMan in Python.`
 
 # Aktuelle Dokumente
-
-### [`DS-Lite: Fernwartung per SSH-Jumpserver`](https://github.com/ingank/Linux/blob/master/how2_dslite-ssh-jumpserver.md)
-### [`CFour.py des DTM-Projekts`](https://github.com/DTM-Projekt/CFour/blob/main/CFour.py)
+[`DS-Lite: Fernwartung per SSH-Jumpserver`](https://github.com/ingank/Linux/blob/master/how2_dslite-ssh-jumpserver.md)<br>
+[`CFour.py des DTM-Projekts`](https://github.com/DTM-Projekt/CFour/blob/main/CFour.py)
