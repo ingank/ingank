@@ -1,4 +1,4 @@
-### [`DTM-Projekt`](https://github.com/orgs/DTM-Projekt/dashboard)
+### [`DTM-Projekt`](https://github.com/orgs/DTM-Projekt)
 `Drehtürmodellprojekt Gymnasium Bad Essen - Vier Gewinnt in Python`
 
 ### [`Linux`](https://github.com/ingank/Linux/)
